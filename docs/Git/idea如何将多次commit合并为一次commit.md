@@ -1,6 +1,10 @@
 ---
 title: idea如何将多次commit合并为一次commit
 date: 2025/5/22
+tags:
+  - IDEA
+  - Java
+  - Git
 author: 花木凋零成兰
 hiddenCover: true
 ---

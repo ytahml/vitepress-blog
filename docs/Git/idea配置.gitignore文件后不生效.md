@@ -1,6 +1,10 @@
 ---
 title: idea配置.gitignore文件后不生效
 date: 2025/5/22
+tags:
+  - IDEA
+  - Java
+  - Git
 author: 花木凋零成兰
 hiddenCover: true
 ---

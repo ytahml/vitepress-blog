@@ -1,6 +1,9 @@
 ---
 title: GitHub经常出现push或pull超时
 date: 2025/5/22
+tags:
+  - Github
+  - Git
 author: 花木凋零成兰
 hiddenCover: true
 ---

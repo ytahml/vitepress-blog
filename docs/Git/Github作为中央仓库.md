@@ -6,6 +6,7 @@ tags:
   - Github
   - Maven
   - Java
+  - Git
 hiddenCover: true
 ---
 
