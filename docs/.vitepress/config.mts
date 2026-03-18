@@ -156,6 +156,7 @@ export default defineConfig({
       "/Java/JVM/": [
         { text: '01 JVM 初识', link: '/Java/JVM/01_JVM初识' },
         { text: '02 Java 字节码', link: '/Java/JVM/02_Java字节码' },
+        { text: '03 类的生命周期', link: '/Java/JVM/03_类的生命周期' },
         // { text: 'WezTerm+Starship 美化 Mac 终端', link: '/Mac环境搭建/WezTerm+Starship美化Mac终端' },
 
       ],
