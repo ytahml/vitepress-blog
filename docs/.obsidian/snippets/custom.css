@@ -1,0 +1,12 @@
+/*.theme-light {*/
+/*    --background-primary: #E3EDCD!important;!*编辑工作区背景颜色*!*/
+/*    --background-primary-alt: #E3EDCD!important;!*ctrl+p呼出面板右侧的快捷键背景颜色*!*/
+/*    --background-secondary: #E3EDCD!important;!*左侧文件栏与右侧标签栏的底色*!*/
+/*    --background-secondary-alt: #dae8bf!important;!*顶层边框颜色*!*/
+/*}*/
+.theme-light {
+    --background-primary: #F0F1F5!important;/*编辑工作区背景颜色*/
+    --background-primary-alt: #F0F1F5!important;/*ctrl+呼出面板右侧的快捷键背景颜色*/
+    --background-secondary: #F0F1F5!important;/*左侧文件栏与右侧标签栏的底色*/
+    --background-secondary-alt: #DCE0E9!important;/*顶层边框颜色*/
+}
