@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/JVM/03_类的生命周期.md",
+                "file": "Java/JVM/04_类加载器.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "03_类的生命周期"
+              "title": "04_类加载器"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JVM/03_类的生命周期.md",
+                "file": "Java/JVM/04_类加载器.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "03_类的生命周期 的大纲"
+              "title": "04_类加载器 的大纲"
             }
           },
           {
@@ -198,20 +198,22 @@
   },
   "active": "ca2f20f64a68578c",
   "lastOpenFiles": [
-    "Java/JVM/03_类的生命周期/1774059864024.png",
-    "Java/JVM/03_类的生命周期/1774059645738.png",
-    "Java/JVM/03_类的生命周期/1773929136249.png",
-    "Java/JVM/03_类的生命周期/1773928920798.png",
-    "Java/JVM/03_类的生命周期/1773928788940.png",
-    "Java/JVM/03_类的生命周期/1773928243833.png",
-    "Java/JVM/03_类的生命周期/1773928010765.png",
-    "Java/JVM/03_类的生命周期/Pasted image 20260319213937.png",
-    "Java/JVM/03_类的生命周期/1773843846465.png",
-    "Java/JVM/03_类的生命周期/1773842296443.png",
-    "Java/JVM/03_类的生命周期/1773840373194.png",
+    "Java/JVM/04_类加载器/1774147580940.png",
+    "Java/JVM/04_类加载器/1774147271061.png",
+    "Java/JVM/04_类加载器/1774147018539.png",
+    "Java/JVM/04_类加载器/1774146449439.png",
+    "Java/JVM/03_类的生命周期.md",
+    "Java/JVM/04_类加载器.md",
+    "Java/JVM/04_类加载器/1774146146550.png",
+    "Java/JVM/Pasted image 20260322102104.png",
+    "Java/JVM/04_类加载器/1774145930439.png",
+    "Java/JVM/04_类加载器/1774144876083.png",
+    "Java/JVM/Pasted image 20260322100102.png",
+    "Java/JVM/04_类加载器/1774144446700.png",
+    "Java/JVM/04_类加载器/1774144000285.png",
+    "Java/JVM/04_类加载器",
     "Java/JVM/03_类的生命周期",
     "Java/JVM/02_Java字节码.md",
-    "Java/JVM/03_类的生命周期.md",
     "Java/JVM/index.md"
   ]
 }
