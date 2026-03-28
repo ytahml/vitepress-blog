@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/JVM/04_类加载器.md",
+                "file": "Java/JVM/05_运行时数据区.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "04_类加载器"
+              "title": "05_运行时数据区"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JVM/04_类加载器.md",
+                "file": "Java/JVM/05_运行时数据区.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "04_类加载器 的大纲"
+              "title": "05_运行时数据区 的大纲"
             }
           },
           {
@@ -198,21 +198,24 @@
   },
   "active": "ca2f20f64a68578c",
   "lastOpenFiles": [
+    "Java/JVM/05_运行时数据区/20260328-8837f48b518b435f94c4372950e627dc.png",
+    "Java/JVM/05_运行时数据区/20260328-a2275008ee854deb8bdd1cb4aac643f0.png",
+    "Java/JVM/05_运行时数据区/20260328-5618264c43354352ab2e265fe9ef80ea.png",
+    "Java/JVM/05_运行时数据区/20260328-f660a52a38b546ea963444e02e2fc33d.png",
+    "Java/JVM/05_运行时数据区/20260328-b101f2550df543a9b3a2f242b832b642.png",
+    "Java/JVM/05_运行时数据区/20260328-185f580a0db440f69b554a8a7b73bf99.png",
+    "Java/JVM/05_运行时数据区/20260328-4fc171b78876474ba519b17704732fec.png",
+    "Java/JVM/05_运行时数据区/20260328-58787285aba0405a833f51976a916b2d.png",
+    "Java/JVM/Pasted image 20260328214319.png",
+    "Java/JVM/05_运行时数据区/20260328-91e3370db14b48dbaa4addf4c6115af3.png",
     "Java/JVM/03_类的生命周期.md",
+    "Java/JVM/05_运行时数据区.md",
+    "Java/JVM/02_Java字节码.md",
+    "Java/JVM/05_运行时数据区/20260328-035c1053503a46c8b44c36e7e4d58a86.png",
+    "Java/JVM/05_运行时数据区",
     "Java/JVM/04_类加载器.md",
-    "Java/JVM/04_类加载器/20260328-1dddb718ab094786b59a03c7cd683495.png",
-    "Java/JVM/04_类加载器/20260328-3299228f0a9c4a1690a2aa06bfff28f5.png",
-    "Java/JVM/04_类加载器/20260328-1eb63dec98d540c2b817703fd8705651.png",
-    "Java/JVM/04_类加载器/20260328-50e058cdc0cf4a089957c8756b22e5b0.png",
-    "Java/JVM/04_类加载器/20260328-6b3477988db4480db3fea89b3ceb070f.png",
-    "Java/JVM/04_类加载器/20260328-7089b94ec4ee49faa4b1eab5c5f3eaef.png",
-    "Java/JVM/Pasted image 20260328121152.png",
-    "Java/JVM/04_类加载器/20260328-6a96931a26b84ae790421a3bb762fac2.png",
-    "Java/JVM/04_类加载器/20260328-2f1ad9f426854d18b0de1538f60a28bb.png",
-    "Java/JVM/Pasted image 20260328093220.png",
     "Java/JVM/04_类加载器",
     "Java/JVM/03_类的生命周期",
-    "Java/JVM/02_Java字节码.md",
     "Java/JVM/index.md"
   ]
 }
