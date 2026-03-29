@@ -196,8 +196,12 @@
       "bases:新建数据库": false
     }
   },
-  "active": "ca2f20f64a68578c",
+  "active": "b57a37fd7c82ab39",
   "lastOpenFiles": [
+    "Java/JVM/05_运行时数据区/20260329-79e25df9f2374d658cbb01937d54898f.png",
+    "Java/JVM/Pasted image 20260329114337.png",
+    "Java/JVM/05_运行时数据区/20260329-ecf6587e887948e1a854c0849faf637d.png",
+    "Java/JVM/05_运行时数据区/20260329-e8ba138770a64d569f8f5bf8dc1c7593.png",
     "Java/JVM/05_运行时数据区/20260329-1a0abd04316947b582d99f100002d559.png",
     "Java/JVM/05_运行时数据区/20260329-4ba593e89d0146a79e6ba7301e55e521.png",
     "Java/JVM/05_运行时数据区/20260329-b7a2191dccf54c77b40c723472eae9c2.png",
@@ -205,10 +209,6 @@
     "Java/JVM/05_运行时数据区/20260329-e0289e4c3a1a42239781e452501749b7.png",
     "Java/JVM/05_运行时数据区/20260329-214401d7a33844ea8b758137b0b7e7b8.png",
     "Java/JVM/05_运行时数据区/20260329-214bda746d7f4827ac78b92c8877e883.png",
-    "Java/JVM/05_运行时数据区/20260329-f89cd9a3438d426986c539e52e159040.png",
-    "Java/JVM/05_运行时数据区/20260329-cc35e2aa761a48b99e9a1d1de2a2cfb0.png",
-    "Java/JVM/05_运行时数据区/20260329-fa66f5d525924c2eb7c6cca1fe0df836.png",
-    "Java/JVM/05_运行时数据区/20260329-6660f755e0404c47be7a444ff69d0bc0.png",
     "Java/JVM/03_类的生命周期.md",
     "Java/JVM/05_运行时数据区.md",
     "Java/JVM/02_Java字节码.md",
