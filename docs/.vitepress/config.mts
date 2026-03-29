@@ -158,6 +158,7 @@ export default defineConfig({
         { text: '02 Java 字节码', link: '/Java/JVM/02_Java字节码' },
         { text: '03 类的生命周期', link: '/Java/JVM/03_类的生命周期' },
         { text: '04 类加载器', link: '/Java/JVM/04_类加载器' },
+        { text: '05 运行时数据区', link: '/Java/JVM/05_运行时数据区' },
         // { text: 'WezTerm+Starship 美化 Mac 终端', link: '/Mac环境搭建/WezTerm+Starship美化Mac终端' },
 
       ],
