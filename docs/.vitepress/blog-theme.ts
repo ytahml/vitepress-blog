@@ -142,52 +142,52 @@ const blogTheme = getThemeConfig({
   },
 
   // 公告
-  popover: {
-    title: '公告',
-    duration: -1,
-    mobileMinify: false,
-    reopen: true,
-    twinkle: false,
-    body: [
-      { type: 'text', content: '👇 微信 👇---👇 QQ 👇' },
-      {
-        type: 'image',
-        src: 'weixin.png',
-        style: 'display: inline-block;width:46%;padding-right:6px'
-      },
-      {
-        type: 'image',
-        src: 'qq.png',
-        style: 'display: inline-block;width:46%;padding-left:6px'
-      },
-      {
-        type: 'text',
-        content: '欢迎大家私信交流(备注:博客)'
-      },
-      // {
-      //   type: 'text',
-      //   content: '邮箱：18570354653@163.com'
-      // },
-      // {
-      //   type: 'text',
-      //   content: '文章首/文尾有群二维码',
-      //   style: 'padding-top:0'
-      // },
-      // {
-      //   type: 'button',
-      //   content: '作者博客',
-      //   link: 'https://sugarat.top'
-      // },
-      // {
-      //   type: 'button',
-      //   content: '作者邮箱',
-      //   props: {
-      //     type: 'success'
-      //   },
-      //   link: 'mailto:18570354653@163.com',
-      // }
-    ],
-  },
+  // popover: {
+  //   title: '公告',
+  //   duration: -1,
+  //   mobileMinify: false,
+  //   reopen: true,
+  //   twinkle: false,
+  //   body: [
+  //     { type: 'text', content: '👇 微信 👇---👇 QQ 👇' },
+  //     {
+  //       type: 'image',
+  //       src: 'weixin.png',
+  //       style: 'display: inline-block;width:46%;padding-right:6px'
+  //     },
+  //     {
+  //       type: 'image',
+  //       src: 'qq.png',
+  //       style: 'display: inline-block;width:46%;padding-left:6px'
+  //     },
+  //     {
+  //       type: 'text',
+  //       content: '欢迎大家私信交流(备注:博客)'
+  //     },
+  //     // {
+  //     //   type: 'text',
+  //     //   content: '邮箱：18570354653@163.com'
+  //     // },
+  //     // {
+  //     //   type: 'text',
+  //     //   content: '文章首/文尾有群二维码',
+  //     //   style: 'padding-top:0'
+  //     // },
+  //     // {
+  //     //   type: 'button',
+  //     //   content: '作者博客',
+  //     //   link: 'https://sugarat.top'
+  //     // },
+  //     // {
+  //     //   type: 'button',
+  //     //   content: '作者邮箱',
+  //     //   props: {
+  //     //     type: 'success'
+  //     //   },
+  //     //   link: 'mailto:18570354653@163.com',
+  //     // }
+  //   ],
+  // },
 
   // 评论
   comment: {
