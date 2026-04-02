@@ -94,7 +94,7 @@ const blogTheme = getThemeConfig({
         nickname: 'vuepress旧博客',
         des: '成功始于方法,巩固才能提高.',
         avatar:
-            'ok-modified.webp',
+            'https://raw.githubusercontent.com/ytahml/picx-images-hosting/master/ok-modified.webp',
         url: 'https://imulan.top/blogs',
       },
       {
@@ -190,13 +190,13 @@ const blogTheme = getThemeConfig({
   // },
 
   // 评论
-  comment: {
-    repo: 'ytahml/ytahml.github.io',
-    repoId: 'R_kgDOMcKScw',
-    category: 'Announcements',
-    categoryId: 'DIC_kwDOMcKSc84ChPpf',
-    inputPosition: 'top',
-  },
+  // comment: {
+  //   repo: 'ytahml/ytahml.github.io',
+  //   repoId: 'R_kgDOMcKScw',
+  //   category: 'Announcements',
+  //   categoryId: 'DIC_kwDOMcKSc84ChPpf',
+  //   inputPosition: 'top',
+  // },
 
   // 作者信息列表
   authorList: [

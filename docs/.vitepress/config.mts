@@ -1,4 +1,5 @@
 import {defineConfig} from 'vitepress'
+import {giscusPlugin} from "vitepress-plugin-giscus";
 // import mathjax3 from 'markdown-it-mathjax3';
 // import { SearchPlugin } from 'vitepress-plugin-search'
 // import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
@@ -40,7 +41,22 @@ export default defineConfig({
     hostname: 'https://imulan.top',
     lastmodDateOnly: false
   },
-  
+
+  // vite
+  vite: {
+    plugins: [
+      giscusPlugin({
+        repo: 'ytahml/ytahml.github.io',
+        repoId: 'R_kgDOMcKScw',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOMcKSc84ChPpf',
+        inputPosition: 'top',
+        mapping: 'pathname',
+        loading: 'lazy'
+      })
+    ]
+  },
+
   // Latex 渲染
   markdown: {
     math: true,
@@ -74,7 +90,7 @@ export default defineConfig({
     lastUpdatedText: '上次更新于',
     
     // 设置 logo
-    logo: 'ok-modified.webp',
+    logo: 'https://raw.githubusercontent.com/ytahml/picx-images-hosting/master/ok-modified.webp',
     editLink: {
       pattern:
         'https://github.com/ytahml/ytahml.github.io/tree/master/docs/:path',

@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
+    "@giscus/vue": "^3.1.1",
     "@sugarat/theme": "^0.5.17",
     "cn-fontsource-lxgw-wen-kai-screen-r": "^1.0.6",
     "element-plus": "^2.7.2",
     "markdown-it-katex": "^2.0.3",
+    "vitepress-plugin-giscus": "^0.1.0",
     "vitepress-plugin-google-analytics": "^1.0.2",
     "vitepress-plugin-pagefind": "^0.4.9",
     "vue": "3.5.31"

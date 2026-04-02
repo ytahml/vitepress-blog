@@ -4,19 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "47e22b8cd63174ef",
+        "id": "5505cf5f4ce8e56a",
         "type": "tabs",
         "children": [
           {
-            "id": "ca2f20f64a68578c",
+            "id": "5a0aabe78804a08d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Java/JVM/05_运行时数据区.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": false
+                "source": false
               },
               "icon": "lucide-file",
               "title": "05_运行时数据区"
@@ -79,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.0024719238281
+    "width": 372.0024719238281
   },
   "right": {
     "id": "c668ac5cc6e0330e",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JVM/03_类的生命周期.md",
+                "file": "Java/JVM/05_运行时数据区.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "03_类的生命周期 的反向链接列表"
+              "title": "05_运行时数据区 的反向链接列表"
             }
           },
           {
@@ -179,7 +178,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -196,25 +195,33 @@
       "bases:新建数据库": false
     }
   },
-  "active": "ca2f20f64a68578c",
+  "active": "5a0aabe78804a08d",
   "lastOpenFiles": [
+    "Java/JVM/01_JVM初识.md",
+    "Java/JVM/02_Java字节码.md",
+    "Java/JVM/03_类的生命周期.md",
     "Java/JVM/04_类加载器.md",
     "Java/JVM/05_运行时数据区.md",
-    "Java/JVM/05_运行时数据区/20260329-e7e8569817884b6c91da51a531aedf3e.png",
-    "Java/JVM/05_运行时数据区/20260329-e668ea18720043bea10da1b2531d14bf.png",
-    "Java/JVM/05_运行时数据区/20260329-8589c410e2df4907884c1ace3d4761a9.png",
-    "Java/JVM/03_类的生命周期.md",
-    "Java/JVM/02_Java字节码.md",
-    "Java/JVM/05_运行时数据区/20260329-a33c34376a0348368cc431cb54d971c0.png",
-    "Java/JVM/05_运行时数据区/20260329-b1bbdf5e318348199657b0e5e20c9c89.png",
-    "Java/JVM/05_运行时数据区/20260329-79e25df9f2374d658cbb01937d54898f.png",
-    "Java/JVM/Pasted image 20260329114337.png",
-    "Java/JVM/05_运行时数据区/20260329-ecf6587e887948e1a854c0849faf637d.png",
-    "Java/JVM/05_运行时数据区/20260329-e8ba138770a64d569f8f5bf8dc1c7593.png",
-    "Java/JVM/05_运行时数据区/20260329-1a0abd04316947b582d99f100002d559.png",
-    "Java/JVM/05_运行时数据区",
-    "Java/JVM/04_类加载器",
-    "Java/JVM/03_类的生命周期",
+    "Java/JVM/assets/05_运行时数据区/20260329-fa66f5d525924c2eb7c6cca1fe0df836.png",
+    "Java/JVM/assets/01_JVM初识",
+    "Java/JVM/assets/02_Java字节码",
+    "Java/JVM/assets/03_类的生命周期",
+    "Java/JVM/assets/04_类加载器",
+    "Java/JVM/assets/05_运行时数据区/file-20260402215148.jpg",
+    "Java/JVM/assets/{NoteName}/05_运行时数据区-1775137264010.webp",
+    "Java/JVM/assets/{NoteName}",
+    "Java/JVM/Assets/{NoteName}/05_运行时数据区-1775137264010.webp",
+    "Java/JVM/Assets/{NoteName}",
+    "Java/JVM/assets/05_运行时数据区/file-20260402214011022.png",
+    "Java/JVM/assets/05_运行时数据区/file-20260402213934001.png",
+    "Java/JVM/assets/05_运行时数据区/file-20260402213237435.png",
+    "assets/05_运行时数据区",
+    "assets",
+    "Java/JVM/assets/05_运行时数据区/file-20260402213125697.png",
+    "Java/JVM/assets/05_运行时数据区/file-20260402213026428.png",
+    "Java/JVM/assets/05_运行时数据区/file-20260402212741140.png",
+    "Java/JVM/assets/05_运行时数据区",
+    "Java/JVM/assets",
     "Java/JVM/index.md"
   ]
 }
