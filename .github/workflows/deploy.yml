@@ -43,6 +43,7 @@ jobs:
           publish_branch: main                           # 目标仓库的分支（通常是 main 或 master）
           publish_dir: ./docs/.vitepress/dist            # 构建输出目录
           keep_files: false
-          user_name: 'imulan'
-          user_email: '18570354653@163.com'
+          user_name: 'github-actions[bot]'
+          # 动态构造一个合法的邮箱
+          user_email: '${{ github.actor }}@users.noreply.github.com'
           commit_message: 'Deploy to GitHub Pages'
