@@ -253,7 +253,7 @@ export default defineConfig({
         },
         {
           "text": "14-Lua 的文件 IO",
-          "link": "/Lua/14-Lua的文件 IO"
+          "link": "/Lua/14-Lua的文件IO"
         }
       ],
       
