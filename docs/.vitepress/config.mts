@@ -47,9 +47,9 @@ export default defineConfig({
     plugins: [
       giscusPlugin({
         repo: 'ytahml/ytahml.github.io',
-        repoId: 'R_kgDOMcKScw',
+        repoId: 'R_kgDOR4djsg',
         category: 'Announcements',
-        categoryId: 'DIC_kwDOMcKSc84ChPpf',
+        categoryId: 'DIC_kwDOR4djss4C567s',
         inputPosition: 'top',
         mapping: 'pathname',
         loading: 'lazy'
@@ -201,11 +201,11 @@ export default defineConfig({
       "/Lua/": [
         {
           "text": "01-Lua 环境安装",
-          "link": "/Lua/01-Lua 环境安装"
+          "link": "/Lua/01-Lua环境安装"
         },
         {
           "text": "02-Lua 数据类型",
-          "link": "/Lua/02-Lua 数据类型"
+          "link": "/Lua/02-Lua数据类型"
         },
         {
           "text": "03-标识符",
@@ -229,7 +229,7 @@ export default defineConfig({
         },
         {
           "text": "08-table 数据结构",
-          "link": "/Lua/08-table 数据结构"
+          "link": "/Lua/08-table数据结构"
         },
         {
           "text": "09-迭代器",
@@ -241,19 +241,19 @@ export default defineConfig({
         },
         {
           "text": "11-Lua 元表与元方法",
-          "link": "/Lua/11-Lua 元表与元方法"
+          "link": "/Lua/11-Lua元表与元方法"
         },
         {
           "text": "12-lua 面向对象",
-          "link": "/Lua/12-lua 面向对象"
+          "link": "/Lua/12-lua面向对象"
         },
         {
           "text": "13-Lua 的协同线程和协同函数",
-          "link": "/Lua/13-Lua 的协同线程和协同函数"
+          "link": "/Lua/13-Lua的协同线程和协同函数"
         },
         {
           "text": "14-Lua 的文件 IO",
-          "link": "/Lua/14-Lua 的文件 IO"
+          "link": "/Lua/14-Lua的文件 IO"
         }
       ],
       

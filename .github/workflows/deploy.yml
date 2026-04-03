@@ -44,5 +44,5 @@ jobs:
           publish_dir: ./docs/.vitepress/dist            # 构建输出目录
           keep_files: false
           user_name: 'imulan'
-          user_email: '2802470158@qq.com'
-          commit_message: 'Deploy from ${{ github.repository }}@${{ github.sha }}'
+          user_email: '18570354653@163.com'
+          commit_message: 'Deploy to GitHub Pages'
