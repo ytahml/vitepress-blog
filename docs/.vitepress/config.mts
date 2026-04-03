@@ -93,7 +93,7 @@ export default defineConfig({
     logo: 'https://raw.githubusercontent.com/ytahml/picx-images-hosting/master/ok-modified.webp',
     editLink: {
       pattern:
-        'https://github.com/ytahml/ytahml.github.io/tree/master/docs/:path',
+        'https://github.com/ytahml/vitepress-blog/tree/master/docs/:path',
       text: '去 GitHub 上编辑内容'
     },
 
