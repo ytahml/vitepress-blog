@@ -46,4 +46,4 @@ jobs:
           user_name: 'github-actions[bot]'
           # 动态构造一个合法的邮箱
           user_email: '${{ github.actor }}@users.noreply.github.com'
-          commit_message: 'Deploy to GitHub Pages'
+          commit_message: ${{ github.event.head_commit.message }}
