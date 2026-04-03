@@ -281,6 +281,7 @@ export default defineConfig({
         { text: 'Spring 的配置类分为 Full 和 Lite 两种模式', link: '/MisNotes/Spring的配置类分为Full和Lite两种模式' },
         { text: '接口幂等性', link: '/MisNotes/接口幂等性' },
         { text: 'JMH 详细使用', link: '/MisNotes/JMH详细使用' },
+        { text: 'Java 批量导出附件为 Zip 压缩包', link: '/MisNotes/Java批量导出附件为ZIP压缩包' },
 
       ],
       
