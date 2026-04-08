@@ -41,7 +41,7 @@ hiddenCover: true
 - [Obsidian](https://obsidian.md/)：早有耳闻却又相见恨晚的 MD 文档阅读和编辑工具，不论是作为阅读器还是编辑器体验都很好，社区里也有很多插件，目前还在摸索；喜欢 Primary 主题
 - [draw.io](https://www.drawio.com/)：画图工具，能满足偶尔的画图需求；支持 web 端使用，可以在浏览器直接绘图；
 - [jclasslib](https://github.com/ingokegel/jclasslib)：Java 字节码文件查看工具，有 idea 插件；
-- [Hex Fiend](https://github.com/HexFiend/HexFiend)：可以直接查看编辑Java 字节码的二进制字符文件；APP Store 提供下载；
+- [Hex Fiend](https://github.com/HexFiend/HexFiend)：可以直接查看编辑文件二进制字符内容；APP Store 提供下载；
 
 ### 网盘及下载
 
