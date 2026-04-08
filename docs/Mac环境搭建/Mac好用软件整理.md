@@ -14,7 +14,7 @@ hiddenCover: true
 
 ## 系统相关
 
-- ~~[ClashX Pro](https://en.clashx.org/)：加快网络访问；搭配[机场](https://fbinv02.fbaff.cc/auth/register?code=FOzfxbnz)~~飞鸟机场的服务体验出现断崖下降，虽然推出了专门的客户端来优化体验，但是并不想被客户端绑死；改用 [Mitce](https://mitce.net/aff.php?aff=35450) 来作为新的服务，客户端使用 [Class Verge](https://github.com/clash-verge-rev/clash-verge-rev/releases)
+- ~~[ClashX Pro](https://en.clashx.org/)：加快网络访问；搭配[机场](https://fbinv02.fbaff.cc/auth/register?code=FOzfxbnz)~~；飞鸟机场的服务体验出现断崖下降，虽然推出了专门的客户端来优化体验，但是并不想被客户端绑死；改用 [Mitce](https://mitce.net/aff.php?aff=35450) 来作为新的服务，客户端使用 [Class Verge](https://github.com/clash-verge-rev/clash-verge-rev/releases)
 - [Mos](https://mos.caldis.me/)：优化鼠标滑动体验
 - [SaneSideButtons](https://github.com/thealpa/SaneSideButtons)：优化鼠标侧键
 - [微信输入法](https://z.weixin.qq.com/)：多端剪切板同步，满足基本日常使用
