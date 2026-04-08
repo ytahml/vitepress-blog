@@ -10,11 +10,11 @@ hiddenCover: true
 
 # Mac 好用软件整理
 
-> 系统版本：macOS Sequoia 15.6
+> 系统版本：macOS Sequoia 15.7.3
 
 ## 系统相关
 
-- [ClashX Pro](https://en.clashx.org/)：加快网络访问；搭配[机场](https://fbinv02.fbaff.cc/auth/register?code=FOzfxbnz)
+- ~~[ClashX Pro](https://en.clashx.org/)：加快网络访问；搭配[机场](https://fbinv02.fbaff.cc/auth/register?code=FOzfxbnz)~~飞鸟机场的服务体验出现断崖下降，虽然推出了专门的客户端来优化体验，但是并不想被客户端绑死；改用 [Mitce](https://mitce.net/aff.php?aff=35450) 来作为新的服务，客户端使用 [Class Verge](https://github.com/clash-verge-rev/clash-verge-rev/releases)
 - [Mos](https://mos.caldis.me/)：优化鼠标滑动体验
 - [SaneSideButtons](https://github.com/thealpa/SaneSideButtons)：优化鼠标侧键
 - [微信输入法](https://z.weixin.qq.com/)：多端剪切板同步，满足基本日常使用
@@ -32,11 +32,16 @@ hiddenCover: true
 ## 好用软件
 
 ### 开发及笔记
+
 - [妙言](https://miaoyan.app/?from=thosefree.com)：支持在 iCloud 同步，非常好看强大的 Markdown 编辑器；适合作为主用的笔记软件;
 - [JetBrains 全家桶](https://www.jetbrains.com/toolbox-app/)：毋庸置疑的开发工具；
 - [termius](https://termius.com/)：好用的 SSH 工具；
 - [VS Code](https://code.visualstudio.com/)：强大的编辑器；[如何在终端安装 Code 命令](https://blog.csdn.net/weixin_42881768/article/details/119635248)；
 - CotEditor：轻量级文本编辑器，在 APP Store 获取；安装后不需要配置就很好用，在终端运行命令`sudo ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/cot`；即可在终端通过`cot`打开文件进行编辑；
+- [Obsidian](https://obsidian.md/)：早有耳闻却又相见恨晚的 MD 文档阅读和编辑工具，不论是作为阅读器还是编辑器体验都很好，社区里也有很多插件，目前还在摸索；喜欢 Primary 主题
+- [draw.io](https://www.drawio.com/)：画图工具，能满足偶尔的画图需求；支持 web 端使用，可以在浏览器直接绘图；
+- [jclasslib](https://github.com/ingokegel/jclasslib)：Java 字节码文件查看工具，有 idea 插件；
+- [Hex Fiend](https://github.com/HexFiend/HexFiend)：可以直接查看编辑Java 字节码的二进制字符文件；APP Store 提供下载；
 
 ### 网盘及下载
 
@@ -44,6 +49,11 @@ hiddenCover: true
 - [百度网盘](https://pan.baidu.com/disk/main?from=oldversion#/index)
 - [阿里云盘](https://www.aliyundrive.com/download)
 - [Motrix](https://motrix.app/zh-CN/)：磁力链接下载工具
+
+### Office
+
+- [WPS Office](https://platform.wps.cn/)：偶尔用来看可能有的 word/Excel 文件；
+- PDFgear：免费的 PDF 阅读器，也有编辑功能，APP Store 直接下载即可；
 
 ## 软件网站(仅学习使用)
 
