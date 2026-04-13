@@ -90,7 +90,8 @@ export default defineConfig({
     lastUpdatedText: '上次更新于',
     
     // 设置 logo
-    logo: 'https://raw.githubusercontent.com/ytahml/picx-images-hosting/master/ok-modified.webp',
+    // logo: 'https://raw.githubusercontent.com/ytahml/picx-images-hosting/master/ok-modified.webp',
+    logo: 'https://cfrt.imulan.top/ok-modified.webp',
     editLink: {
       pattern:
         'https://github.com/ytahml/vitepress-blog/tree/master/docs/:path',

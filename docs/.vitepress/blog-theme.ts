@@ -94,7 +94,8 @@ const blogTheme = getThemeConfig({
         nickname: 'vuepress旧博客',
         des: '成功始于方法,巩固才能提高.',
         avatar:
-            'https://raw.githubusercontent.com/ytahml/picx-images-hosting/master/ok-modified.webp',
+            // 'https://raw.githubusercontent.com/ytahml/picx-images-hosting/master/ok-modified.webp',
+            'https://cfrt.imulan.top/ok-modified.webp',
         url: 'https://imulan.top/blogs',
       },
       {
