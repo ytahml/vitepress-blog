@@ -1,0 +1,77 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="FehImhfWLOlx4cpFTHrl">
+    <mxGraphModel dx="1186" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mmwvm32BTeP5bGjinGya-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="01 加载&#xa;Loading" vertex="1">
+          <mxGeometry height="78" width="115" x="70" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="03 初始化&#xa;Initialization" vertex="1">
+          <mxGeometry height="78" width="151" x="500" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" value="04 使用&#xa;Using" vertex="1">
+          <mxGeometry height="78" width="114" x="726" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" value="05 卸载&#xa;Unloading" vertex="1">
+          <mxGeometry height="78" width="131" x="910" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-9" edge="1" parent="1" source="mmwvm32BTeP5bGjinGya-1" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;rounded=0;sketch=1;curveFitting=1;jiggle=2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="290" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-10" edge="1" parent="1" source="mmwvm32BTeP5bGjinGya-16" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" target="mmwvm32BTeP5bGjinGya-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="460" y="98.6" as="sourcePoint" />
+            <mxPoint x="526" y="98.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-14" edge="1" parent="1" source="mmwvm32BTeP5bGjinGya-6" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;sketch=1;curveFitting=1;jiggle=2;" target="mmwvm32BTeP5bGjinGya-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-15" edge="1" parent="1" source="mmwvm32BTeP5bGjinGya-7" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;sketch=1;curveFitting=1;jiggle=2;" target="mmwvm32BTeP5bGjinGya-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" value="02 连接&#xa;Linking" vertex="1">
+          <mxGeometry height="78" width="143" x="275.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-17" connectable="0" parent="1" style="group;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="130" width="594" x="40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-19" parent="mmwvm32BTeP5bGjinGya-17" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="180" width="570" x="24" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-3" parent="mmwvm32BTeP5bGjinGya-17" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#e1d5e7;strokeColor=#9673a6;" value="验证&#xa;Verification" vertex="1">
+          <mxGeometry height="78" width="143" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-4" parent="mmwvm32BTeP5bGjinGya-17" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" value="准备&#xa;Preparation" vertex="1">
+          <mxGeometry height="78" width="143" x="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-5" parent="mmwvm32BTeP5bGjinGya-17" style="whiteSpace=wrap;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="解析&#xa;Resolution" vertex="1">
+          <mxGeometry height="78" width="134" x="420" as="geometry" />
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-11" edge="1" parent="mmwvm32BTeP5bGjinGya-17" source="mmwvm32BTeP5bGjinGya-3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;sketch=1;curveFitting=1;jiggle=2;" target="mmwvm32BTeP5bGjinGya-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-12" edge="1" parent="mmwvm32BTeP5bGjinGya-17" source="mmwvm32BTeP5bGjinGya-4" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0.5;rounded=0;sketch=1;curveFitting=1;jiggle=2;" target="mmwvm32BTeP5bGjinGya-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="170" y="-91" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mmwvm32BTeP5bGjinGya-20" edge="1" parent="1" source="mmwvm32BTeP5bGjinGya-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" target="mmwvm32BTeP5bGjinGya-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
