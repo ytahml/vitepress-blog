@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="GMvARZ4x7leV_7EWP8bq">
+    <mxGraphModel dx="521" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AhK3G2YfwHUUL3AH5KvB-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;glass=0;shadow=0;" value="&lt;font face=&quot;手札体-简&quot;&gt;启动类加载器&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;手札体-简&quot;&gt;Bootstrap&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="235" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="AhK3G2YfwHUUL3AH5KvB-5" edge="1" parent="1" source="AhK3G2YfwHUUL3AH5KvB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AhK3G2YfwHUUL3AH5KvB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AhK3G2YfwHUUL3AH5KvB-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font face=&quot;手札体-简&quot;&gt;扩展类加载器&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;手札体-简&quot;&gt;Extension&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="235" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AhK3G2YfwHUUL3AH5KvB-4" edge="1" parent="1" source="AhK3G2YfwHUUL3AH5KvB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="AhK3G2YfwHUUL3AH5KvB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AhK3G2YfwHUUL3AH5KvB-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font face=&quot;手札体-简&quot;&gt;应用程序类加载器&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;手札体-简&quot;&gt;Application&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="235" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="AhK3G2YfwHUUL3AH5KvB-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;手札体-简&quot;&gt;父类加载器&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="140" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AhK3G2YfwHUUL3AH5KvB-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;手札体-简&quot;&gt;父类加载器&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="145" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6dBLMZMovn-CVXwUwRff-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="450" as="sourcePoint" />
+            <mxPoint x="130" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6dBLMZMovn-CVXwUwRff-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="向上查找是否加载过" vertex="1">
+          <mxGeometry height="100" width="20" x="100" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6dBLMZMovn-CVXwUwRff-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="414" y="170" as="sourcePoint" />
+            <mxPoint x="414" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6dBLMZMovn-CVXwUwRff-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="向下尝试加载" vertex="1">
+          <mxGeometry height="100" width="20" x="430" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
