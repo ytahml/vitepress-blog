@@ -51,7 +51,7 @@ const blogTheme = getThemeConfig({
   footer: {
     // message 字段支持配置为HTML内容，配置多条可以配置为数组
     // message: '下面 的内容和图标都是可以修改的噢（当然本条内容也是可以隐藏的）',
-    copyright: 'MIT License | imulan',
+    copyright: 'MIT License | 花木凋零成兰',
     // icpRecord: {
     //   name: '湘ICP备2024077074号',
     //   link: 'https://beian.miit.gov.cn/'
@@ -78,7 +78,7 @@ const blogTheme = getThemeConfig({
   themeColor: 'el-blue',
 
   // 文章默认作者
-  author: 'imulan',
+  author: '花木凋零成兰',
 
   // 友链
   friend: {
@@ -202,7 +202,7 @@ const blogTheme = getThemeConfig({
   // 作者信息列表
   authorList: [
     {
-      nickname: 'imulan',
+      nickname: '花木凋零成兰',
       url: 'https://imulan.top',
       des: '成功始于方法, 巩固才能提高!'
     }

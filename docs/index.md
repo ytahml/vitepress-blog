@@ -3,7 +3,7 @@ layout: home
 # 首页部分元素定制
 blog:
  name: 'imulan'
- author: 'imulan'
+ author: '花木凋零成兰'
  logo: /ok.jpg
  motto: 成功始于方法,巩固才能提高!
  inspiring:
