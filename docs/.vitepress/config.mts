@@ -91,7 +91,7 @@ export default defineConfig({
     
     // 设置 logo
     // logo: 'https://raw.githubusercontent.com/ytahml/picx-images-hosting/master/ok-modified.webp',
-    logo: 'https://cfrt.imulan.top/ok-modified.webp',
+    logo: 'https://webp.imulan.top/ok-modified.webp',
     editLink: {
       pattern:
         'https://github.com/ytahml/vitepress-blog/tree/master/docs/:path',
