@@ -5,6 +5,7 @@ import {giscusPlugin} from "vitepress-plugin-giscus";
 // import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
 // 导入主题的配置
 import { blogTheme } from './blog-theme'
+import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
 
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为"/仓库名/"
@@ -15,6 +16,13 @@ import { blogTheme } from './blog-theme'
 
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
+const baseUrl = "https://imulan.top"
+const RSS: RSSOptions = {
+  title: '花木凋零成兰',
+  baseUrl,
+  copyright: 'Copyright (c) 2025-present, 花木雕成兰',
+}
+
 export default defineConfig({
   // 继承博客主题 (@sugarat/theme)
   extends: blogTheme,
@@ -53,7 +61,8 @@ export default defineConfig({
         inputPosition: 'top',
         mapping: 'pathname',
         loading: 'lazy'
-      })
+      }),
+      RssPlugin(RSS)
     ]
   },
 
