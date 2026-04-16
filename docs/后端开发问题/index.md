@@ -19,4 +19,5 @@ hiddenCover: true
 - [驱动程序无法通过使用安全套接字层(SSL)加密与 SQL Server 建立安全连接](./驱动程序无法通过使用安全套接字层(SSL)加密与SQLServer建立安全连接.md)
 - [AES加密结果有+号浏览器转义后解密失败](./AES加密结果有+号浏览器转义后解密失败.md)
 - [AES加密解密出现：缺省的iv长度不能小于16](./AES加密解密出现：缺省的iv长度不能小于16.md)
+- [Paths.get()结合SMB2下载文件出错](./Paths.get()结合SMB2下载文件出错.md)
     

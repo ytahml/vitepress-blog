@@ -201,6 +201,7 @@ export default defineConfig({
         { text: '驱动程序无法通过使用安全套接字层 (SSL) 加密与 SQL Server 建立安全连接', link: '/后端开发问题/驱动程序无法通过使用安全套接字层(SSL)加密与SQLServer建立安全连接' },
         { text: 'AES 加密结果有 + 号浏览器转义后解密失败', link: '/后端开发问题/AES加密结果有+号浏览器转义后解密失败' },
         { text: 'AES 加密解密出现：缺省的 iv 长度不能小于 16', link: '/后端开发问题/AES加密解密出现：缺省的iv长度不能小于16' },
+        { text: 'Paths.get() 结合 SMB2 下载文件出错', link: '/后端开发问题/Paths.get()结合SMB2下载文件出错' },
       ],
       "/Git/": [
         { text: 'GitHub 经常出现 push 或 pull 超时', link: '/Git/GitHub经常出现push或pull超时' },

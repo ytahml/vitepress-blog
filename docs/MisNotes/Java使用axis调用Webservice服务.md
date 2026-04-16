@@ -11,14 +11,15 @@ hiddenCover: true
 
 # Java 使用 Axis 调用 Webservice 服务
 
-> 由于需要对接第三方资金系统，而第三方系统提供的是 Webservice 服务，因此需要了解如何使用 Java 调用 Webservice 服务；
+![](./assets/Java使用Axis调用Webservice服务/file-20260416223507.jpg)
 
+由于需要对接第三方系统，而第三方系统提供的是 Webservice 服务，因此需要了解如何使用 Java 调用 Webservice 服务；
 
 ## 调用方法选择
 
 询问了 DeepSeek 之后得知，比较成熟的方案有四种，如下表所示：
 
-![](file-20260416205445.jpg)
+![](./assets/Java使用Axis调用Webservice服务/file-20260416205445.jpg)
 
 由于之前有一个老项目使用了 Axis 1.4 来解析另一个项目的 Webservice，因此首选考虑使用 Axis，但是 Axis1 的最高版本就是 1.4，而且很早就已经不再维护了（已经老掉牙了）；
 
@@ -122,7 +123,7 @@ import top.imulan.webservice.weather.WeatherWebServiceStub;
 执行结果如下所示：
 ![](./assets/Java使用Axis调用Webservice服务/file-20260416221323.jpg)
 
-## SpringBoot 使用 Axis2
+## SpringBoot 整合 Axis2
 
 Stub 对象是线程安全的，因此我们可以将 Stub 对象由 Spring 容器管理，避免反复创建的开销，如下所示：
 
