@@ -36,6 +36,7 @@ hiddenCover: true
 
 在终端运行命令：`wsdl2java.bat -uri 提供的 webservice服务地址 -p 生产代码的包名 -o 生成客户端代码输出目录`即可；
 
+> [示例源代码地址](https://github.com/ytahml/webservice-demo)
 
 这里使用公共 webservice 服务作为示例：
 
