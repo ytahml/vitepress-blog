@@ -293,6 +293,7 @@ export default defineConfig({
         { text: '接口幂等性', link: '/MisNotes/接口幂等性' },
         { text: 'JMH 详细使用', link: '/MisNotes/JMH详细使用' },
         { text: 'Java 批量导出附件为 Zip 压缩包', link: '/MisNotes/Java批量导出附件为ZIP压缩包' },
+        { text: 'Java 使用 Axis 调用 Webservice 服务', link: '/MisNotes/Java使用Axis调用Webservice服务' },
 
       ],
       
