@@ -202,6 +202,7 @@ export default defineConfig({
         { text: 'AES 加密结果有 + 号浏览器转义后解密失败', link: '/后端开发问题/AES加密结果有+号浏览器转义后解密失败' },
         { text: 'AES 加密解密出现：缺省的 iv 长度不能小于 16', link: '/后端开发问题/AES加密解密出现：缺省的iv长度不能小于16' },
         { text: 'Paths.get() 结合 SMB2 下载文件出错', link: '/后端开发问题/Paths.get()结合SMB2下载文件出错' },
+        { text: 'JCo 连接 SAP 出现 Field XXX not a member of XXX 错误', link: '/后端开发问题/JCo连接SAP出现Field%20XXX%20not%20a%20member%20of%20XXX错误' },
       ],
       "/Git/": [
         { text: 'GitHub 经常出现 push 或 pull 超时', link: '/Git/GitHub经常出现push或pull超时' },
