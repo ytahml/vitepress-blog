@@ -20,4 +20,5 @@ hiddenCover: true
 - [AES加密结果有+号浏览器转义后解密失败](./AES加密结果有+号浏览器转义后解密失败.md)
 - [AES加密解密出现：缺省的iv长度不能小于16](./AES加密解密出现：缺省的iv长度不能小于16.md)
 - [Paths.get()结合SMB2下载文件出错](./Paths.get()结合SMB2下载文件出错.md)
+- [JCo 连接 SAP 出现Field XXX not a member of XXX错误](./JCo连接SAP出现Field%20XXX%20not%20a%20member%20of%20XXX错误.md)
     
