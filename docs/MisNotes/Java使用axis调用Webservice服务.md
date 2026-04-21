@@ -126,23 +126,27 @@ import top.imulan.webservice.weather.WeatherWebServiceStub;
 
 ## SpringBoot 整合 Axis2
 
-Stub 对象是线程安全的，因此我们可以将 Stub 对象由 Spring 容器管理，避免反复创建的开销，如下所示：
+~~Stub 对象是线程安全的，因此我们可以将 Stub 对象由 Spring 容器管理，避免反复创建的开销~~，后续经过确认 Stub 对象不是线程安全的，因此不能直接将对象交由 Spring 对象容器管理；调整为使用抽象工厂的方式来管理 Stub 对象的配置和创建，基本示例如下所示：
+
+> 若需要优化性能，减少每次创建 Stub 对象的开销，则只能采用手搓对象池的方式；我这里业务不需要频繁调用 Webservice 服务，所以使用抽象工厂来进行统一配置的管理和对象的创建；
+> 
+> 对象池的方式有找到一篇文章：[多线程调用AXIS2 线程不安全客户端stub 解决办法:对象池](https://blog.csdn.net/fdsfdf3434/article/details/78923941)
 
 ```java
 import org.apache.axis2.AxisFault;  
 import org.apache.axis2.client.Options;  
 import org.apache.axis2.transport.http.HTTPConstants;  
-import org.springframework.context.annotation.Bean;  
-import org.springframework.context.annotation.Configuration;  
+import org.springframework.stereotype.Component;  
 import top.imulan.webservice.weather.WeatherWebServiceStub;  
   
 /**  
  * * @author 花木凋零成兰  
- * @since 2026/4/16 22:15  
- */@Configuration  
-public class WebServiceConfig {  
-    @Bean  
-    public WeatherWebServiceStub weatherWebServiceStub() {  
+ * @since 2026/4/21 20:58  
+ */
+@Component  
+public class WebserviceFactoryImpl implements WebserviceFactory {  
+    @Override  
+    public WeatherWebServiceStub createWeatherStub() {  
         try {  
             // 1. 创建客户端对象，调用地址一般是去掉 ?wsdl 之后的地址，也可以在网页 xml 底部找到对应方法调用地址  
             WeatherWebServiceStub stub = new WeatherWebServiceStub("http://www.webxml.com.cn/WebServices/WeatherWebService.asmx");  
@@ -157,7 +161,7 @@ public class WebServiceConfig {
             options.setProperty(HTTPConstants.REUSE_HTTP_CLIENT, "true");  
             return stub;  
         } catch (AxisFault e) {  
-            throw new RuntimeException("初始化天气 Webservice 客户端失败：" + e.getMessage(), e);  
+            throw new RuntimeException("创建天气 Webservice 客户端失败：" + e.getMessage(), e);  
         }  
     }  
 }
@@ -166,20 +170,36 @@ public class WebServiceConfig {
 接下来我们只需要调用本地 Servcie 服务一样，正常调用方法接口即可，如下所示：
 
 ```java
+import org.springframework.beans.factory.annotation.Autowired;  
+import org.springframework.stereotype.Service;  
+import top.imulan.webservice.config.WebserviceFactory;  
+import top.imulan.webservice.weather.WeatherWebServiceStub;  
+  
+import java.rmi.RemoteException;  
+  
 /**  
  * * @author 花木凋零成兰  
  * @since 2026/4/16 22:20  
- */@Service  
+ */
+ @Service  
 public class WeatherService {  
+  
+    // stub 对象存在安全问题  
     @Autowired  
     private WeatherWebServiceStub weatherWebServiceStub;  
-      
+  
+    // 改用每次调用时，创建获取一个 stub 对象实例  
+    @Autowired  
+    private WebserviceFactory webserviceFactory;  
+  
     public String[] getWeatherByCityName(String city) throws RemoteException {  
+        // 1、获取客户端对象实例  
+        WeatherWebServiceStub weatherStub = webserviceFactory.createWeatherStub();  
         // 2. 创建请求对象  
         WeatherWebServiceStub.GetWeatherbyCityName getWeather = new WeatherWebServiceStub.GetWeatherbyCityName();  
         getWeather.setTheCityName("New York");  
         // 3. 调用服务并获取响应  
-        WeatherWebServiceStub.GetWeatherbyCityNameResponse response = weatherWebServiceStub.getWeatherbyCityName(getWeather);  
+        WeatherWebServiceStub.GetWeatherbyCityNameResponse response = weatherStub.getWeatherbyCityName(getWeather);  
         // 返回结果，并转化为 Java 类型  
         return response.getGetWeatherbyCityNameResult().getString();  
     }  
@@ -194,8 +214,9 @@ public class WeatherService {
 
 ![](./assets/Java使用Axis调用Webservice服务/file-20260416223047.jpg)
 
-虽然可能最后还是和平常对接第三方 HTTP 接口一样去发送 JSON 数据，响应解析 JSON 数据一样，但也算是了解了下严格的 SOAP 协议的 Webservice 服务基本对接流程了；
+~~虽然可能最后还是和平常对接第三方 HTTP 接口一样去发送 JSON 数据，响应解析 JSON 数据一样，但也算是了解了下严格的 SOAP 协议的 Webservice 服务基本对接流程了；~~
 
+经过一个星期左右的等待，第三方系统的 Webservice 服务终于搭建好，结果还是使用的标准 soap 协议来传输数据，只是传输的内容是：JSON 格式的字符串罢了...
 ## 参考文章
 
 - [JAVA调用Web Service接口的五种方式](https://zhuanlan.zhihu.com/p/394377813)
