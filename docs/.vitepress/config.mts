@@ -36,11 +36,19 @@ export default defineConfig({
   head: [
     // 配置网站的图标（显示在浏览器的 tab 上）
     // ['link', { rel: 'icon', href: `${base}favicon.ico` }], // 修改了 base 这里也需要同步修改
-    ['link', { rel: 'icon', href: 'favicon.ico' }],
+    ['link', { rel: 'icon', href: 'https://imulan.top/favicon.ico' }],
     // ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/cn-fontsource-lxgw-wen-kai-screen-r/font.css' }],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
     ['meta', { name: 'sogou_site_verification', content: 'BwQr1kj0CD' }],
     ['link', {rel: 'canonical', href: 'https://www.imulan.top' }],
+    [
+      'script',
+      {
+        src: 'https://static.cloudflareinsights.com/beacon.min.js',
+        defer: true,
+        'data-cf-beacon': '{"token": "08888efe98f649f5b140518c9d7583c3"}'
+      }
+    ],
     // ['', { name: 'baidu-site-verification', content: 'codeva-Aj2Rp56aLq' }],
   ],
   
@@ -295,7 +303,7 @@ export default defineConfig({
         { text: '接口幂等性', link: '/MisNotes/接口幂等性' },
         { text: 'JMH 详细使用', link: '/MisNotes/JMH详细使用' },
         { text: 'Java 批量导出附件为 Zip 压缩包', link: '/MisNotes/Java批量导出附件为ZIP压缩包' },
-        { text: 'Java 使用 Axis 调用 Webservice 服务', link: '/MisNotes/Java使用Axis调用Webservice服务' },
+        { text: 'Java 使用 Axis 调用 Webservice 服务', link: '/MisNotes/Java使用axis调用Webservice服务' },
 
       ],
       
